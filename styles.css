@@ -1,0 +1,246 @@
+/* Styles inspired by fsf.org and gnu.org: simple, accessible, with emphasis on readability and free software principles. */
+/* Uses sans-serif fonts for clarity, neutral colors for high contrast, and subtle animations for engagement without distraction. */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&family=Estedad:wght@400;700&display=swap');
+body {
+    font-family: 'Vazirmatn', sans-serif; /* Vazirmatn for body text, Persian-friendly and open-source inspired */
+    background-color: #ffffff; /* White for accessibility */
+    color: #000000; /* Black text for maximum contrast */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+h1, h2 {
+    font-family: 'Estedad', sans-serif; /* Estedad for headers, elegant Persian font for emphasis */
+    font-weight: 700;
+}
+a {
+    color: #c14239; /* Standard blue for links, as seen in FSF sites */
+    text-decoration: underline;
+    transition: color 0.3s ease; /* Subtle hover transition inspired by modern FSF accessibility */
+}
+a:hover {
+    color: #b11107;
+    text-decoration: none;
+}
+.lang-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background: #f8f8f8;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    border-radius: 4px;
+}
+.lang-toggle a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #b11107 ;
+}
+.lang-toggle a:hover {
+    background: #b11107 ;
+    color: #ffffff;
+}
+#header {
+    background-color: #f8f8f8; /* Light gray, matching FSF header subtlety */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box;
+    animation: fadeInDown 0.8s ease-out; /* Gentle entry animation */
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#header img.logo {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 1s ease-in; /* Fade-in for logo */
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#skip-links {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+#skip-links a:focus {
+    position: static;
+    top: auto;
+    left: auto;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #000;
+    z-index: 1000; /* Accessibility focus, inspired by FSF skip links */
+}
+#content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    animation: fadeInUp 0.8s ease-out 0.2s both; /* Staggered animation */
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+    word-wrap: break-word;
+}
+#content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 15px;
+}
+#logos img {
+    max-width: 150px;
+    height: auto;
+    flex: 0 1 auto;
+    animation: fadeInScale 1.2s ease-in-out; /* Scale and fade for logos, subtle movement */
+}
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+#footer {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333333;
+    box-sizing: border-box;
+    width: 100%;
+    animation: fadeInUp 0.8s ease-out 0.4s both; /* Delayed animation for footer */
+}
+#footer a {
+    color: #b11107;
+}
+#footer p {
+    margin: 5px 0;
+    word-wrap: break-word;
+}
+/* License notice inspired by FSF footers */
+.license-notice {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+/* Responsive design: Enhanced for mobile, inspired by FSF's accessible responsiveness */
+@media (max-width: 768px) {
+    #header {
+        padding: 15px;
+    }
+    #header img.logo {
+        max-width: 300px;
+    }
+    #content {
+        margin: 20px auto;
+        padding: 0 15px;
+        max-width: 95%;
+    }
+    #content h2 {
+        font-size: 1.6em;
+    }
+    #content p {
+        font-size: 1.1em;
+    }
+    #logos {
+        margin-top: 30px;
+        gap: 10px;
+    }
+    #logos img {
+        max-width: 120px;
+    }
+    #footer {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    .lang-toggle {
+        top: 5px;
+        right: 5px;
+        left: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #header {
+        padding: 10px;
+    }
+    #header img.logo {
+        max-width: 250px;
+    }
+    #content {
+        margin: 15px auto;
+        padding: 0 10px;
+        max-width: 100%;
+    }
+    #content h2 {
+        font-size: 1.4em;
+    }
+    #content p {
+        font-size: 1em;
+    }
+    #logos {
+        margin-top: 20px;
+        gap: 8px;
+        flex-direction: column;
+    }
+    #logos img {
+        max-width: 100px;
+        width: 100%;
+        max-width: 150px;
+    }
+    #footer {
+        padding: 8px;
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width: 1200px) {
+    #content {
+        max-width: 900px;
+    }
+}
