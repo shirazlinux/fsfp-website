@@ -1,0 +1,28 @@
+uniqueHomePage = true
+docSections = ["learn"]
+
+blogDir = "blog"
+
+time_format_blog = "Monday, January 02, 2006"
+time_format_default = "January 2, 2006"
+enableDarkMode = true
+defaultLightingMode = "auto"
+Description = "نرم‌افزار آزاد، جامعه آزاد. FSFP — نرم‌افزار آزاد برای مردم. دربارهٔ آزادی است، نه قیمت."
+
+codeMaxLines = 10
+
+showLineNumbers = false
+
+[search]
+on = false
+global = false
+[search.algolia]
+enable = false
+
+[logo]
+lightMode = "images/fsfp-dark.svg"
+darkMode = "images/fsfp-light.svg"
+
+[source]
+name = "کد منبع"
+url = "https://github.com/shirazlinux/fsfp-website"

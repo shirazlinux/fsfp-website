@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c2410c">
+<meta name="color-scheme" content="light dark">
+{{- $desc := site.Params.Description }}
+{{- if .Description }}
+  {{- $desc = .Description }}
+{{- else if and .IsPage .Params.description }}
+  {{- $desc = .Params.description }}
+{{- end }}
+<meta name="description" content="{{ $desc }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
+<meta property="og:image" content="{{ "images/banner.jpg" | absURL }}">
+<meta property="og:site_name" content="FSFP — Free Software for People">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fa_IR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ "images/banner.jpg" | absURL }}">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}?v=3" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ "images/shirazlinux-icon.png" | relURL }}?v=3">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}?v=3">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ range .AlternativeOutputFormats -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+{{- hugo.Generator }}
+{{- $t := .Title }}
+{{- $s := site.Title }}
+<title>{{ if and (not .IsHome) $t }}{{ $t }} | {{ end }}{{ $s }}</title>
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+
+{{- $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" true) -}}
+{{- $styles := resources.Get "sass/main.sass" | resources.ExecuteAsTemplate "main.sass" . | css.Sass $options | resources.Fingerprint "sha512" }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">

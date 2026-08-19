@@ -1,0 +1,10 @@
+image: alpine/edge
+packages:
+- go
+- hugo
+sources:
+- https://github.com/shirazlinux/fsfp-website
+tasks:
+- build: |
+    cd fsfp-website
+    hugo

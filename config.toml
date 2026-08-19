@@ -1,0 +1,9 @@
+baseURL = 'https://fsfp.ir'
+relativeURLs = true
+languageCode = 'fa-IR'
+title = 'FSFP — نرم‌افزار آزاد برای مردم'
+theme = ["github.com/onweru/compose"]
+rssLimit = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

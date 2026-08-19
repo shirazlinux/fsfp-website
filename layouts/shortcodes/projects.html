@@ -1,0 +1,22 @@
+{{- $projects := site.Data.projects -}}
+{{- if $projects -}}
+<div class="project-list">
+  {{- range $projects }}
+  <article class="project-card">
+    {{- if .link }}
+    <h3><a href="{{ .link }}">{{ .title }}</a></h3>
+    {{- else }}
+    <h3>{{ .title }}</h3>
+    {{- end }}
+    {{- with .summary }}
+    <p>{{ . }}</p>
+    {{- end }}
+    {{- if and .link .link_label }}
+    <p class="project-meta"><a href="{{ .link }}">{{ .link_label }}</a></p>
+    {{- end }}
+  </article>
+  {{- end }}
+</div>
+{{- else -}}
+<p>هنوز پروژه‌ای ثبت نشده است.</p>
+{{- end -}}

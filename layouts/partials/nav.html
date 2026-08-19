@@ -1,0 +1,30 @@
+{{- $s := .Site }}
+{{- $sp := $s.Params }}
+<nav class="wrap nav menu" aria-label="ناوبری اصلی">
+	<div class="nav_start">
+		<a href='{{ absLangURL "" }}' class="nav_brand">
+			<span class="brand-mark">FSFP</span>
+			<span class="brand-name">نرم‌افزار آزاد برای مردم</span>
+		</a>
+		<label class="nav_toggle toggle" title="فهرست" role="button" aria-label="باز و بسته کردن فهرست">
+			{{ partial "sprite" (dict "icon" "harmburger") }}
+		</label>
+	</div>
+	<ul class="nav_body">
+		{{- $p := . }}
+		{{- range $s.Menus.main }}
+		<li class="nav-item">
+			{{- $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) }}
+			{{- with .Page }}
+			{{- $active = or $active ( $.IsDescendant .)  }}
+			{{- end }}
+			{{- $url := absLangURL .URL }}
+			{{- if or (hasPrefix .URL "http") (hasPrefix .URL "www.") }}
+				{{- $url = .URL }}
+			{{- end }}
+			<a class="nav-link{{if $active }} active{{end}}" href="{{ $url }}"{{ if $active }} aria-current="page"{{ end }}><span{{if $active }} class="active"{{end}}>{{ .Name }}</span></a>
+		</li>
+		{{- end }}
+		<li class="nav-item">{{ partial "mode" . }}</li>
+	</ul>
+</nav>

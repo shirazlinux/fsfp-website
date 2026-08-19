@@ -1,0 +1,59 @@
+html
+  --color-mode: "light"
+  --light: #faf8f5
+  --dark: #171512
+  --haze: #f3ebe3
+  --bubble: #241f1b
+  --accent: var(--haze)
+  --bg: var(--light)
+  --code-bg: #f1e8de
+  --overlay: var(--light)
+  --text: #1c1917
+  --muted: #57534e
+  --font: 'Vazirmatn', Tahoma, sans-serif
+  --border-color: #e7ddd3
+  --inline-color: #9a3412
+  --theme: #c2410c
+  --theme-soft: #ffedd5
+  --ease: ease
+  --scroll-thumb: rgba(0,0,0,.08)
+  --search-border-color: transparent
+  --next-icon-path: url(../images/icons/double-arrow.svg)
+  --never-icon-path: url(../images/sitting.svg)
+
+  @mixin darkmode
+    --color-mode: "dark"
+    --theme: #fb923c
+    --theme-soft: #3b2414
+    --bg: var(--dark)
+    --text: #f5f0ea
+    --muted: #a8a29e
+    --accent: var(--bubble)
+    --overlay: var(--bubble)
+    --code-bg: #2a221c
+    --border-color: #3f342c
+    --inline-color: #fdba74
+    --scroll-thumb: rgba(255,255,255,.1)
+    --search-bg: var(--accent)
+    --search-border-color: var(--accent)
+    *
+      box-shadow: none !important
+
+  &[data-mode="dark"]
+    @include darkmode
+    .color
+      &_choice
+        &::after
+          background-image: var(--moon-icon)
+
+  &[data-mode="auto"]
+    @media (prefers-color-scheme: dark)
+      @include darkmode
+
+%narrow
+  max-width: 44rem
+  margin: 0 auto
+
+blockquote
+  + .highlight_wrap
+    margin-top: 2.25rem

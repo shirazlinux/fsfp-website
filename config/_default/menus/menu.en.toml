@@ -1,0 +1,9 @@
+[[main]]
+  name = "صفحه اصلی"
+  weight = 1
+  url = "/"
+
+[[main]]
+  name = "یادگیری"
+  weight = 2
+  url = "learn/"
