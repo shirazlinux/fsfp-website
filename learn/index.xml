@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>نرم‌افزار آزاد چیست؟ on FSFP — نرم‌افزار آزاد برای مردم</title><link>https://fsfp.ir/learn/</link><description>Recent content in نرم‌افزار آزاد چیست؟ on FSFP — نرم‌افزار آزاد برای مردم</description><generator>Hugo</generator><language>en</language><atom:link href="https://fsfp.ir/learn/index.xml" rel="self" type="application/rss+xml"/><item><title>چهار آزادی</title><link>https://fsfp.ir/learn/four-freedoms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/four-freedoms/</guid><description>&lt;blockquote&gt;
+ &lt;ol start="0"&gt;
+ &lt;li&gt;آزادی &lt;strong&gt;استفاده&lt;/strong&gt; از برنامه برای هر هدفی.&lt;/li&gt;
+ &lt;li&gt;آزادی &lt;strong&gt;مطالعه&lt;/strong&gt; و &lt;strong&gt;بهبود&lt;/strong&gt; برنامه.&lt;/li&gt;
+ &lt;li&gt;آزادی &lt;strong&gt;اشتراک&lt;/strong&gt; برنامه.&lt;/li&gt;
+ &lt;li&gt;آزادی &lt;strong&gt;همکاری&lt;/strong&gt; در ساخت برنامه.&lt;/li&gt;
+ &lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;این چهار آزادی را یکی‌یکی باز می‌کنیم.&lt;/p&gt;
+&lt;h2 id="۰-استفاده"&gt;۰: استفاده&lt;/h2&gt;
+&lt;p&gt;آزادی صفرم می‌گوید هر کسی حق دارد برنامه را &lt;strong&gt;برای هر هدفی&lt;/strong&gt; به کار ببرد؛ از کار شخصی تا کار تجاری. حتی می‌توان نرم‌افزار آزاد را فروخت.&lt;/p&gt;
+&lt;p&gt;می‌توانید آن را داخل کار خودتان هم بگذارید. این بخش ظریف است؛ جزئیاتش در &lt;a href="https://fsfp.ir/learn/participate/derived-works/"&gt;استفادهٔ دوباره&lt;/a&gt; آمده است.&lt;/p&gt;</description></item><item><title>مجوزهای نرم‌افزار آزاد</title><link>https://fsfp.ir/learn/licenses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/licenses/</guid><description>&lt;p&gt;&lt;a href="https://fsfp.ir/learn/four-freedoms/"&gt;چهار آزادی&lt;/a&gt; معمولاً با یک &lt;strong&gt;مجوز نرم‌افزار آزاد&lt;/strong&gt; تضمین می‌شوند. مجوزها یکی نیستند؛ هر کدام برای وضعیتی بهتر می‌نشیند.&lt;/p&gt;
+&lt;h2 id="مجوز-چطور-کار-میکند"&gt;مجوز چطور کار می‌کند&lt;/h2&gt;
+&lt;p&gt;مجوز آزاد حقوقی را — گاهی با شرط، مثل ذکر منبع — به گیرنده می‌دهد تا چهار آزادی برقرار شود. هر مجوزی که این چهار آزادی را بدهد، مجوز آزاد است. در عمل بیشتر پروژه‌ها یکی از مجوزهای معروف و آزموده‌شده را برمی‌دارند. برای انتخاب، &lt;a href="https://fsfp.ir/learn/participate/choose-a-license/"&gt;انتخاب مجوز&lt;/a&gt; را ببینید.&lt;/p&gt;</description></item><item><title>کپی‌لفت چیست؟</title><link>https://fsfp.ir/learn/copyleft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/copyleft/</guid><description>&lt;p&gt;&lt;strong&gt;کپی‌لفت&lt;/strong&gt; روشی برای مجوز دادن است که مخصوص نرم‌افزار آزاد ساخته شده. هدفش این است که نرم‌افزار آزاد گسترش پیدا کند و داخل اثر غیرآزاد قفل نشود.&lt;/p&gt;
+&lt;p&gt;کپی‌لفت دو روی یک سکه است: &lt;em&gt;حق&lt;/em&gt; دارید بهبودتان را پخش کنید، و اگر برنامه را پخش کنید &lt;em&gt;باید&lt;/em&gt; همان بهبود را با همان شرایط بدهید. وقتی می‌خواهید کد کپی‌لفت را در پروژهٔ خودتان به کار ببرید، همین تعهد مهم است.&lt;/p&gt;
+
+&lt;div class="tip"&gt;
+ &lt;strong&gt;یک اشتباه رایج:&lt;/strong&gt; کپی‌لفت همان نرم‌افزار آزاد نیست. برنامهٔ غیرکپی‌لفت هم می‌تواند آزاد باشد؛ برنامهٔ متن‌باز هم می‌تواند کپی‌لفت باشد. کسانی که به جنبش نرم‌افزار آزاد نزدیک‌ترند معمولاً کپی‌لفت را بیشتر می‌پسندند تا کسانی که به جنبش متن‌باز نزدیک‌ترند.
+&lt;/div&gt;
+
+&lt;h2 id="طیف-کپیلفت"&gt;طیف کپی‌لفت&lt;/h2&gt;
+&lt;p&gt;مجوزهای نرم‌افزار آزاد روی طیفی از &lt;strong&gt;آسان‌گیر&lt;/strong&gt; تا &lt;strong&gt;کپی‌لفت&lt;/strong&gt; نشسته‌اند؛ بستگی دارد شروط کپی‌لفت در متن مجوز چقدر سنگین باشد.&lt;/p&gt;</description></item></channel></rss>

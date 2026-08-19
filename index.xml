@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>نرم‌افزار آزاد برای مردم on FSFP — نرم‌افزار آزاد برای مردم</title><link>https://fsfp.ir/</link><description>Recent content in نرم‌افزار آزاد برای مردم on FSFP — نرم‌افزار آزاد برای مردم</description><generator>Hugo</generator><language>en</language><atom:link href="https://fsfp.ir/index.xml" rel="self" type="application/rss+xml"/><item><title>چهار آزادی</title><link>https://fsfp.ir/learn/four-freedoms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/four-freedoms/</guid><description>&lt;blockquote&gt;
+ &lt;ol start="0"&gt;
+ &lt;li&gt;آزادی &lt;strong&gt;استفاده&lt;/strong&gt; از برنامه برای هر هدفی.&lt;/li&gt;
+ &lt;li&gt;آزادی &lt;strong&gt;مطالعه&lt;/strong&gt; و &lt;strong&gt;بهبود&lt;/strong&gt; برنامه.&lt;/li&gt;
+ &lt;li&gt;آزادی &lt;strong&gt;اشتراک&lt;/strong&gt; برنامه.&lt;/li&gt;
+ &lt;li&gt;آزادی &lt;strong&gt;همکاری&lt;/strong&gt; در ساخت برنامه.&lt;/li&gt;
+ &lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;این چهار آزادی را یکی‌یکی باز می‌کنیم.&lt;/p&gt;
+&lt;h2 id="۰-استفاده"&gt;۰: استفاده&lt;/h2&gt;
+&lt;p&gt;آزادی صفرم می‌گوید هر کسی حق دارد برنامه را &lt;strong&gt;برای هر هدفی&lt;/strong&gt; به کار ببرد؛ از کار شخصی تا کار تجاری. حتی می‌توان نرم‌افزار آزاد را فروخت.&lt;/p&gt;
+&lt;p&gt;می‌توانید آن را داخل کار خودتان هم بگذارید. این بخش ظریف است؛ جزئیاتش در &lt;a href="https://fsfp.ir/learn/participate/derived-works/"&gt;استفادهٔ دوباره&lt;/a&gt; آمده است.&lt;/p&gt;</description></item><item><title>مجوزهای نرم‌افزار آزاد</title><link>https://fsfp.ir/learn/licenses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/licenses/</guid><description>&lt;p&gt;&lt;a href="https://fsfp.ir/learn/four-freedoms/"&gt;چهار آزادی&lt;/a&gt; معمولاً با یک &lt;strong&gt;مجوز نرم‌افزار آزاد&lt;/strong&gt; تضمین می‌شوند. مجوزها یکی نیستند؛ هر کدام برای وضعیتی بهتر می‌نشیند.&lt;/p&gt;
+&lt;h2 id="مجوز-چطور-کار-میکند"&gt;مجوز چطور کار می‌کند&lt;/h2&gt;
+&lt;p&gt;مجوز آزاد حقوقی را — گاهی با شرط، مثل ذکر منبع — به گیرنده می‌دهد تا چهار آزادی برقرار شود. هر مجوزی که این چهار آزادی را بدهد، مجوز آزاد است. در عمل بیشتر پروژه‌ها یکی از مجوزهای معروف و آزموده‌شده را برمی‌دارند. برای انتخاب، &lt;a href="https://fsfp.ir/learn/participate/choose-a-license/"&gt;انتخاب مجوز&lt;/a&gt; را ببینید.&lt;/p&gt;</description></item><item><title>کپی‌لفت چیست؟</title><link>https://fsfp.ir/learn/copyleft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/copyleft/</guid><description>&lt;p&gt;&lt;strong&gt;کپی‌لفت&lt;/strong&gt; روشی برای مجوز دادن است که مخصوص نرم‌افزار آزاد ساخته شده. هدفش این است که نرم‌افزار آزاد گسترش پیدا کند و داخل اثر غیرآزاد قفل نشود.&lt;/p&gt;
+&lt;p&gt;کپی‌لفت دو روی یک سکه است: &lt;em&gt;حق&lt;/em&gt; دارید بهبودتان را پخش کنید، و اگر برنامه را پخش کنید &lt;em&gt;باید&lt;/em&gt; همان بهبود را با همان شرایط بدهید. وقتی می‌خواهید کد کپی‌لفت را در پروژهٔ خودتان به کار ببرید، همین تعهد مهم است.&lt;/p&gt;
+
+&lt;div class="tip"&gt;
+ &lt;strong&gt;یک اشتباه رایج:&lt;/strong&gt; کپی‌لفت همان نرم‌افزار آزاد نیست. برنامهٔ غیرکپی‌لفت هم می‌تواند آزاد باشد؛ برنامهٔ متن‌باز هم می‌تواند کپی‌لفت باشد. کسانی که به جنبش نرم‌افزار آزاد نزدیک‌ترند معمولاً کپی‌لفت را بیشتر می‌پسندند تا کسانی که به جنبش متن‌باز نزدیک‌ترند.
+&lt;/div&gt;
+
+&lt;h2 id="طیف-کپیلفت"&gt;طیف کپی‌لفت&lt;/h2&gt;
+&lt;p&gt;مجوزهای نرم‌افزار آزاد روی طیفی از &lt;strong&gt;آسان‌گیر&lt;/strong&gt; تا &lt;strong&gt;کپی‌لفت&lt;/strong&gt; نشسته‌اند؛ بستگی دارد شروط کپی‌لفت در متن مجوز چقدر سنگین باشد.&lt;/p&gt;</description></item><item><title>مشارکت در نرم‌افزار آزاد</title><link>https://fsfp.ir/learn/participate/contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/participate/contribute/</guid><description>&lt;p&gt;ده‌ها پروژهٔ آزاد دنبال کمک‌اند. فرقی نمی‌کند کارتان چیست — برنامه‌نویسی، نوشتن مستند، ادارهٔ جامعه، معرفی پروژه، طراحی یا هنر. تقریباً هر ابزاری که هر روز باز می‌کنید، احتمالاً خودش نرم‌افزار آزاد است.&lt;/p&gt;
+&lt;p&gt;جوامع این پروژه‌ها منتظر شما هستند. اتاق گفت‌وگو، انجمن و بقیهٔ جاهای جمع‌شدن‌شان را پیدا کنید و خودتان را معرفی کنید.&lt;/p&gt;
+&lt;h2 id="قبل-از-فرستادن-کار"&gt;قبل از فرستادن کار&lt;/h2&gt;
+&lt;p&gt;وقتی بهبودی می‌فرستید، معمولاً انتظار می‌رود همان مجوز پروژه روی کارتان بنشیند. مجوز را بخوانید و مطمئن شوید با شرایطش برای مشارکت خودتان موافقید.&lt;/p&gt;</description></item><item><title>انتشار نرم‌افزار آزاد</title><link>https://fsfp.ir/learn/participate/publish/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/participate/publish/</guid><description>&lt;p&gt;ایده‌ای برای یک پروژهٔ آزاد دارید و می‌خواهید منتشرش کنید؟ مسیر معمولاً همین است:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;بنویسیدش&lt;/li&gt;
+&lt;li&gt;مجوز انتخاب کنید&lt;/li&gt;
+&lt;li&gt;منتشر کنید&lt;/li&gt;
+&lt;li&gt;اگر خواستید، جامعه بسازید&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="نوشتن"&gt;نوشتن&lt;/h2&gt;
+&lt;p&gt;این‌جا جای آموزش برنامه‌نویسی نیست. یک توصیه اما هست: &lt;strong&gt;زود منتشر کنید&lt;/strong&gt;. خیلی از نگهدارنده‌های تازه‌کار صبر می‌کنند تا مستند کامل شود، ویژگی تمام شود، باگ کم شود، یا کد «خوب» به نظر برسد. لازم نیست. انتشار زود بازخورد می‌آورد و راه را برای کمک دیگران باز می‌کند.&lt;/p&gt;</description></item><item><title>انتخاب مجوز</title><link>https://fsfp.ir/learn/participate/choose-a-license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/participate/choose-a-license/</guid><description>&lt;p&gt;انتخاب مجوز بخش مهمی از انتشار پروژه است. گزینه‌ها زیادند و هر کدام روی آیندهٔ کار اثر می‌گذارد. [عوض کردن مجوز بعداً] ممکن است سخت باشد؛ از اول با حوصله انتخاب کنید.&lt;/p&gt;
+&lt;p&gt;چند مجوز رایج و دلیل انتخاب‌شان:&lt;/p&gt;
+
+&lt;div class="tip"&gt;
+ بعد از انتخاب، مجوز را همراه برنامه بگذارید. ساده‌ترین کار کپی متن مجوز در فایلی به نام &lt;code&gt;COPYING&lt;/code&gt; داخل مخزن است. برای وضعیت پیچیده‌تر &lt;a href="https://reuse.software/"&gt;REUSE&lt;/a&gt; را ببینید.
+&lt;/div&gt;
+
+&lt;h2 id="مجوزهای-کپیلفت"&gt;مجوزهای کپی‌لفت&lt;/h2&gt;
+&lt;p&gt;کپی‌لفت کمک می‌کند برنامه آزاد بماند. هر کس بهبود بدهد، باید همان بهبود را با همان مجوز کپی‌لفت منتشر کند؛ شما هم می‌توانید آن را به نسخهٔ خودتان برگردانید. شرح بیشتر: &lt;a href="https://fsfp.ir/learn/copyleft/"&gt;کپی‌لفت چیست؟&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>مجوز برای دارایی غیرنرم‌افزاری</title><link>https://fsfp.ir/learn/participate/assets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/participate/assets/</guid><description>&lt;p&gt;مجوز نرم‌افزار آزاد برای خودِ برنامه مناسب است. اما پروژهٔ آزاد اغلب چیزهایی دارد که نرم‌افزار نیستند: تصویر، صدا، متن، مستند. برای این‌ها مجوز دیگری بهتر است؛ مجوزی که با روح نرم‌افزار آزاد و با مجوزهای آزاد جور باشد.&lt;/p&gt;
+&lt;h2 id="کریتیو-کامانز"&gt;کریتیو کامانز&lt;/h2&gt;
+&lt;p&gt;بیشتر دارایی چندرسانه‌ای — تصویر، صدا، ویدیو، نوشته — با &lt;a href="https://creativecommons.org/"&gt;کریتیو کامانز&lt;/a&gt; خوب جور می‌شود. می‌توانید کپی‌لفت و ذکر منبع را تنظیم کنید.&lt;/p&gt;
+&lt;p&gt;گونهٔ ND (بدون اثر مشتق) و NC (غیرتجاری) با نرم‌افزار آزاد سازگار نیستند. استفاده از آن‌ها کاربرد کارتان را در اکوسیستم آزاد محدود می‌کند.&lt;/p&gt;</description></item><item><title>استفادهٔ دوباره از نرم‌افزار آزاد</title><link>https://fsfp.ir/learn/participate/derived-works/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/participate/derived-works/</guid><description>&lt;p&gt;یکی از قوت‌های نرم‌افزار آزاد این است که می‌شود دوباره به کارش برد. کد پروژهٔ دیگر را در کار تازه می‌گذارید، وقت می‌خرید و روی شانهٔ کار قبلی می‌ایستید. شرطش احترام به کار اصل است: باید با مجوزش جور بیایید.&lt;/p&gt;
+
+&lt;div class="tip tip_warning"&gt;
+ هر بار کار دیگران را داخل برنامهٔ خودتان می‌گذارید، مجوز را دقیق بخوانید.
+&lt;/div&gt;
+
+&lt;h2 id="آوردن-کد-آسانگیر-به-کار-تازه"&gt;آوردن کد آسان‌گیر به کار تازه&lt;/h2&gt;
+&lt;p&gt;جذابیت مجوز آسان‌گیر همین است: تقریباً در هر چیزی می‌نشیند و تعهد کمی دارد. بیشترشان فقط می‌خواهند متن مجوز یا حتی یک جملهٔ کپی‌رایت همراه محصول باشد. در پروژهٔ آزاد معمولاً افزودن همان مجوز به کنار کد کافی است.&lt;/p&gt;</description></item><item><title>مالکیت کپی‌رایت</title><link>https://fsfp.ir/learn/participate/copyright-ownership/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/participate/copyright-ownership/</guid><description>&lt;p&gt;مالکیت کپی‌رایت در نرم‌افزار آزاد نیاز به توضیح دارد. اگر موافقت‌نامهٔ مجوز مشارکت‌کننده در کار نباشد — روشی که &lt;a href="https://fsfp.ir/learn/participate/contribute/#%d9%85%d9%88%d8%a7%d9%81%d9%82%d8%aa%d9%86%d8%a7%d9%85%d9%87-%d9%85%d8%ac%d9%88%d8%b2-%d9%85%d8%b4%d8%a7%d8%b1%da%a9%d8%aa%da%a9%d9%86%d9%86%d8%af%d9%87"&gt;سخت توصیه می‌کنیم سراغش نروید&lt;/a&gt; — توسعه‌دهنده و ناشر حق قانونی را چطور نگه می‌دارند؟&lt;/p&gt;
+&lt;h2 id="مالک-پروژه-کیست"&gt;مالک پروژه کیست؟&lt;/h2&gt;
+&lt;p&gt;وقتی در پروژهٔ آزاد مشارکت می‌کنید، اگر کپی‌رایت را به کسی واگذار نکنید، حق مربوط به همان مشارکت مال خودتان می‌ماند. بعد همان تغییر، با همان مجوز پروژه، به همه — از جمله بقیهٔ دارندگان کپی‌رایت — &lt;em&gt;مجوز داده می‌شود&lt;/em&gt;.&lt;/p&gt;</description></item><item><title>مشارکت در این وب‌سایت</title><link>https://fsfp.ir/learn/participate/this-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fsfp.ir/learn/participate/this-site/</guid><description>&lt;p&gt;خود این سایت نرم‌افزار آزاد است. کد در &lt;a href="https://github.com/shirazlinux/fsfp-website"&gt;مخزن FSFP&lt;/a&gt; است. محتوا بر پایهٔ &lt;a href="https://sr.ht/~sircmpwn/writefreesoftware.org/"&gt;writefreesoftware.org&lt;/a&gt; نوشته شده و با &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt; منتشر می‌شود؛ مجوزی کپی‌لفت.&lt;/p&gt;
+&lt;p&gt;ظاهر سایت از قالب هوگوی
+&lt;a href="https://github.com/onweru/compose"&gt;compose&lt;/a&gt;
+می‌آید؛ نرم‌افزار آزاد با مجوز &lt;a href="https://mit-license.org/"&gt;MIT&lt;/a&gt;، کپی‌رایت © ۲۰۲۰ Weru.&lt;/p&gt;</description></item></channel></rss>
