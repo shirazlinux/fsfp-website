@@ -1,5 +1,7 @@
 ---
 title: مشارکت در این وب‌سایت
+description: این سایت نرم‌افزار آزاد است؛ محتوا CC BY-SA و بر پایهٔ writefreesoftware.org.
+robots: noindex, follow
 weight: 1000
 ---
 

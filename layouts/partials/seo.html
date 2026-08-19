@@ -1,0 +1,202 @@
+{{- $siteTitle := site.Title -}}
+{{- $title := $siteTitle -}}
+{{- if .IsHome }}
+  {{- $title = "نرم‌افزار آزاد برای مردم | جنبش نرم‌افزار آزاد — FSFP" -}}
+{{- else if .Params.seo_title }}
+  {{- $title = printf "%s | %s" .Params.seo_title $siteTitle -}}
+{{- else if .Title }}
+  {{- $title = printf "%s | نرم‌افزار آزاد — FSFP" .Title -}}
+{{- end -}}
+{{- $desc := site.Params.Description -}}
+{{- if .Description -}}
+  {{- $desc = .Description -}}
+{{- else if .Params.description -}}
+  {{- $desc = .Params.description -}}
+{{- end -}}
+{{- $kw := site.Params.keywords -}}
+{{- with .Params.keywords -}}
+  {{- $kw = . -}}
+{{- end -}}
+{{- $img := "images/banner.jpg" | absURL -}}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+{{- with $kw }}
+<meta name="keywords" content="{{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}">
+{{- end }}
+<meta name="robots" content="{{ .Params.robots | default "index, follow" }}">
+<meta name="author" content="FSFP — نرم‌افزار آزاد برای مردم">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="fa" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:site_name" content="FSFP — نرم‌افزار آزاد برای مردم">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $img }}">
+<meta property="og:image:alt" content="نرم‌افزار آزاد برای مردم — جنبش نرم‌افزار آزاد">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $img }}">
+<meta name="twitter:image:alt" content="نرم‌افزار آزاد برای مردم">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "FSFP",
+  "alternateName": [
+    "نرم‌افزار آزاد برای مردم",
+    "Free Software for People",
+    "جنبش نرم‌افزار آزاد"
+  ],
+  "url": {{ "https://fsfp.ir/" | jsonify }},
+  "logo": {{ "images/shirazlinux-icon.png" | absURL | jsonify }},
+  "description": {{ site.Params.Description | jsonify }},
+  "inLanguage": "fa",
+  "sameAs": [
+    "https://github.com/shirazlinux/fsfp-website"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "FSFP — نرم‌افزار آزاد برای مردم",
+  "alternateName": ["نرم‌افزار آزاد", "جنبش نرم‌افزار آزاد", "Free Software for People"],
+  "url": {{ "https://fsfp.ir/" | jsonify }},
+  "inLanguage": "fa",
+  "description": {{ site.Params.Description | jsonify }}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ $title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "inLanguage": "fa",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "FSFP — نرم‌افزار آزاد برای مردم",
+    "url": "https://fsfp.ir/"
+  },
+  "about": [
+    {"@type": "Thing", "name": "نرم‌افزار آزاد"},
+    {"@type": "Thing", "name": "جنبش نرم‌افزار آزاد"},
+    {"@type": "Thing", "name": "چهار آزادی"},
+    {"@type": "Thing", "name": "کپی‌لفت"}
+  ]
+}
+</script>
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "نرم‌افزار آزاد چیست؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نرم‌افزار آزاد برنامه‌ای است که چهار آزادی را برای کاربر حفظ می‌کند: آزادی استفاده، مطالعه، بهبود و اشتراک. آزاد یعنی آزادی، نه رایگان بودن."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "جنبش نرم‌افزار آزاد چیست؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "جنبش نرم‌افزار آزاد جامعهٔ جهانی کسانی است که برای حق کاربر بر برنامه می‌کوشند. شعار شناخته‌شده‌اش «نرم‌افزار آزاد، جامعه آزاد» است."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "چهار آزادی نرم‌افزار آزاد کدام‌اند؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "آزادی صفر: اجرا برای هر هدف. آزادی یک: مطالعه و تغییر کد منبع. آزادی دو: پخش کپی. آزادی سه: انتشار نسخهٔ بهبودیافته برای جامعه."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "نرم‌افزار آزاد با متن‌باز چه فرقی دارد؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "متن‌باز بیشتر از زاویهٔ روش توسعه و کسب‌وکار حرف می‌زند؛ نرم‌افزار آزاد از زاویهٔ حق کاربر و جنبش اجتماعی. در عمل بیشتر برنامه‌های آزاد متن‌باز هم هستند."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "کپی‌لفت چیست؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "کپی‌لفت روش مجوز دادن در جنبش نرم‌افزار آزاد است تا برنامه آزاد بماند و نتوان آن را در اثر غیرآزاد قفل کرد. مجوز عمومی گنو (GPL) معروف‌ترین نمونه است."
+      }
+    }
+  ]
+}
+</script>
+{{- end }}
+{{- if and (not .IsHome) (not .IsSection) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "inLanguage": "fa",
+  "mainEntityOfPage": {{ .Permalink | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": "FSFP — نرم‌افزار آزاد برای مردم"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FSFP",
+    "url": "https://fsfp.ir/"
+  }
+}
+</script>
+{{- if not .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "خانه — نرم‌افزار آزاد",
+      "item": "https://fsfp.ir/"
+    }{{ if .Section }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ if eq .Section "learn" }}"یادگیری نرم‌افزار آزاد"{{ else }}{{ .Section | jsonify }}{{ end }},
+      "item": {{ printf "https://fsfp.ir/%s/" .Section | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }{{ else }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }{{ end }}
+  ]
+}
+</script>
+{{- end }}
+{{- end }}

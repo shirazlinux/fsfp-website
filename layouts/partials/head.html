@@ -2,35 +2,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#c2410c">
 <meta name="color-scheme" content="light dark">
-{{- $desc := site.Params.Description }}
-{{- if .Description }}
-  {{- $desc = .Description }}
-{{- else if and .IsPage .Params.description }}
-  {{- $desc = .Params.description }}
-{{- end }}
-<meta name="description" content="{{ $desc }}">
-<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
-<meta property="og:image" content="{{ "images/banner.jpg" | absURL }}">
-<meta property="og:site_name" content="FSFP — Free Software for People">
-<meta property="og:description" content="{{ $desc }}">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="fa_IR">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
-<meta name="twitter:description" content="{{ $desc }}">
-<meta name="twitter:image" content="{{ "images/banner.jpg" | absURL }}">
+{{- partial "seo" . }}
 <link rel="icon" href="{{ "favicon.ico" | relURL }}?v=3" sizes="32x32">
 <link rel="icon" type="image/png" href="{{ "images/shirazlinux-icon.png" | relURL }}?v=3">
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}?v=3">
-<link rel="canonical" href="{{ .Permalink }}">
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 {{- hugo.Generator }}
-{{- $t := .Title }}
-{{- $s := site.Title }}
-<title>{{ if and (not .IsHome) $t }}{{ $t }} | {{ end }}{{ $s }}</title>
 
 <script defer src="https://umami.sudoshz.ir/script.js" data-website-id="9777b66d-94fd-40cb-807c-ec8b17f5edcd"></script>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>

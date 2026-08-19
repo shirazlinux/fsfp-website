@@ -7,7 +7,8 @@ time_format_blog = "Monday, January 02, 2006"
 time_format_default = "January 2, 2006"
 enableDarkMode = true
 defaultLightingMode = "auto"
-Description = "نرم‌افزار آزاد، جامعه آزاد. FSFP — نرم‌افزار آزاد برای مردم. دربارهٔ آزادی است، نه قیمت."
+Description = "نرم‌افزار آزاد برای مردم: جنبش نرم‌افزار آزاد، چهار آزادی کاربر، کپی‌لفت، مجوز گنو و تفاوت با متن‌باز. آزاد یعنی آزادی، نه قیمت."
+keywords = ["نرم‌افزار آزاد", "جنبش نرم‌افزار آزاد", "چهار آزادی", "کپی‌لفت", "متن‌باز", "گنو", "GPL", "FOSS", "Free Software", "نرم‌افزار آزاد جامعه آزاد", "آزادی نرم‌افزار"]
 
 codeMaxLines = 10
 
