@@ -1,11 +1,11 @@
-{{- $siteTitle := site.Title -}}
-{{- $title := $siteTitle -}}
+{{- $siteTitle := "جنبش نرم‌افزار آزاد" -}}
+{{- $title := "نرم‌افزار آزاد برای مردم | جنبش نرم‌افزار آزاد" -}}
 {{- if .IsHome }}
-  {{- $title = "نرم‌افزار آزاد برای مردم | جنبش نرم‌افزار آزاد — FSFP" -}}
+  {{- $title = "نرم‌افزار آزاد برای مردم | جنبش نرم‌افزار آزاد" -}}
 {{- else if .Params.seo_title }}
   {{- $title = printf "%s | %s" .Params.seo_title $siteTitle -}}
 {{- else if .Title }}
-  {{- $title = printf "%s | نرم‌افزار آزاد — FSFP" .Title -}}
+  {{- $title = printf "%s | %s" .Title $siteTitle -}}
 {{- end -}}
 {{- $desc := site.Params.Description -}}
 {{- if .Description -}}
@@ -24,13 +24,13 @@
 <meta name="keywords" content="{{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}">
 {{- end }}
 <meta name="robots" content="{{ .Params.robots | default "index, follow" }}">
-<meta name="author" content="FSFP — نرم‌افزار آزاد برای مردم">
+<meta name="author" content="نرم‌افزار آزاد برای مردم">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="alternate" hreflang="fa" href="{{ .Permalink }}">
 <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-<meta property="og:site_name" content="FSFP — نرم‌افزار آزاد برای مردم">
+<meta property="og:site_name" content="نرم‌افزار آزاد برای مردم">
 <meta property="og:locale" content="fa_IR">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
@@ -67,7 +67,7 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "FSFP — نرم‌افزار آزاد برای مردم",
+  "name": "نرم‌افزار آزاد برای مردم",
   "alternateName": ["نرم‌افزار آزاد", "جنبش نرم‌افزار آزاد", "Free Software for People"],
   "url": {{ "https://fsfp.ir/" | jsonify }},
   "inLanguage": "fa",
@@ -84,7 +84,7 @@
   "inLanguage": "fa",
   "isPartOf": {
     "@type": "WebSite",
-    "name": "FSFP — نرم‌افزار آزاد برای مردم",
+    "name": "نرم‌افزار آزاد برای مردم",
     "url": "https://fsfp.ir/"
   },
   "about": [
@@ -156,7 +156,7 @@
   "mainEntityOfPage": {{ .Permalink | jsonify }},
   "author": {
     "@type": "Organization",
-    "name": "FSFP — نرم‌افزار آزاد برای مردم"
+    "name": "نرم‌افزار آزاد برای مردم"
   },
   "publisher": {
     "@type": "Organization",
